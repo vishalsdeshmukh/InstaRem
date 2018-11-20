@@ -1,0 +1,30 @@
+{
+  "name": "battleapi",
+  "version": "1.0.0",
+  "description": "Instarem BattleAPI",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "csvtojson": "^2.0.8",
+    "mongoose": "^5.3.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishalsdeshmukh/InstaRem.git"
+  },
+  "keywords": [
+    "BattleAPI"
+  ],
+  "author": "vishal deshmukh",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/vishalsdeshmukh/InstaRem/issues"
+  },
+  "homepage": "https://github.com/vishalsdeshmukh/InstaRem#readme"
+}
