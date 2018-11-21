@@ -35,7 +35,7 @@ app.get('/search', (req,res)=>{
 });
 
     res.send('Welcome to InstaRem Battle API');
-})
+});
 
 app.listen(port, '0.0.0.0');
 console.log("server started on port " + port);
