@@ -34,7 +34,7 @@ app.get('/search', (req,res)=>{
     battleAPI.getBattleSearch(req,res);  
 });
 
-app.get('./',(req,res)=>{
+app.get('/',(req,res)=>{
     res.send('Welcome to InstaRem Battle API');
 });
 
