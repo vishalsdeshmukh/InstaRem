@@ -13,3 +13,8 @@ exports.dbconfig={
 exports.serverConfig={
     serverPort:process.env.PORT || 5000
 }
+
+exports.tokenConfig = {
+    secretKey:'SecretKey@123456',
+    tokenExpiry:'60s'
+}
