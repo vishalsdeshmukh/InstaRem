@@ -11,5 +11,5 @@ exports.dbconfig={
     serverPort:8000
 }
 exports.serverConfig={
-    serverPort:8000
+    serverPort:process.env.PORT || 5000
 }
