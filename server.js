@@ -57,7 +57,7 @@ app.post('/login',(req,res)=>{
         jwt.sign({userCredentials},config.tokenConfig.secretKey,{expiresIn:config.tokenConfig.tokenExpiry},(err,token)=>{
             if(err) console.log(err.message);
             else{
-                res.send('token(60 mins valid) : ' + token)
+                res.send('token valid for '+ config.tokenConfig.tokenExpiry+') : ' + token)
             }
         });
     }
